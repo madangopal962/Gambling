@@ -44,7 +44,7 @@ body nav .search a {
 
 .category {
   width: 100%;
-  height: auto;
+  height: 50px;
   gap: 20px;
   display: flex;
   justify-content: start;
@@ -65,11 +65,12 @@ body nav .search a {
 .category a {
   flex: 0 0 auto;
   width: auto;
-  line-height: 32px;
+  line-height: 42px;
   text-align: center;
   text-decoration: none;
   color: #451c95;
   font-weight: 500;
+  font-size: 17px;
 }
 
 .main {
@@ -92,10 +93,14 @@ body nav .search a {
   margin: 0;
 }
 
+.menu hr{
+  border: none;
+  border-top: 1px solid #f3f3f3;
+}
 .menu li {
   display: flex;
   align-items: center;
-  padding: 12px 20px;
+  padding: 25px 5px 25px 20px;
   cursor: pointer;
   transition: background 0.3s;
 }
@@ -121,6 +126,7 @@ body nav .search a {
 
 .slider {
   height: auto;
+  padding: 5px 0px 5px 15px;
 }
 
 .slides {
@@ -131,13 +137,13 @@ body nav .search a {
 }
 
 .slides img {
-  padding: 5px;
-  border-radius: 40px;
-
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+  padding: 3px;
 }
 .main-mid .sport-buttons{
-  padding: 10px 0 0;
-  padding-left: 4px;
+  padding-left: 15px;
   display: flex;
   width: 100%;
   gap: 5px;
@@ -149,19 +155,19 @@ body nav .search a {
 
 }
 .main-mid .sport-buttons .sport-button1{
-  background: url(cricket-bg.png);
+  background: url(img/cricket-bg.png);
 }
 .main-mid .sport-buttons .sport-button2{
-  background: url(football-bg.png);
+  background: url(img/football-bg.png);
 }
 .main-mid .sport-buttons .sport-button3{
-  background: url(tennis-bg.png);
+  background: url(img/tennis-bg.png);
 }
 .main-mid .sport-buttons .sport-button4{
-  background: url(horse-bg.png);
+  background: url(img/horse-bg.png);
 }
 .main-mid .sport-buttons .sport-button5{
-  background: url(greyhound-bg.png);
+  background: url(img/greyhound-bg.png);
 }
 .main-mid .sport-buttons .sport-button1, .sport-button2, .sport-button3, .sport-button4, .sport-button5{
   border-radius: 3px;
@@ -171,12 +177,121 @@ body nav .search a {
 }
 
 
+.main-mid .pngs{
+  padding: 15px 0px 10px 15px;
+}
+.main-mid .pngs .png-cont{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+.main-mid .pngs img{
+  border-radius: 5px;
+  width: 100%;
+}
+
+.main-mid .live-bet{
+  padding-left: 15px;
+}
+.main-mid .live-bet .topline{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px 20px 10px;
+}
+.main-mid .live-bet hr{
+  border: none;
+  border-top: 1px solid #bbbbbb;
+}
+.main-mid .live-bet .topline h2{
+  color: black;
+  font-weight: 400;
+}
+.main-mid .live-bet .topline .buttons{
+  display: flex;
+  gap: 8px;
+}
+.main-mid .live-bet .topline .buttons button{
+  background-color: transparent;
+  border: 1px solid #1e8067;
+  border-radius: 20px;
+  padding: 3px 10px 3px 10px;
+  cursor: pointer;
+  color: #1e8067;
+}
+.main-mid .live-bet .topline .buttons button span{
+  color: #1e8067;
+}
 
 
 
+table{
+    width:100%;
+    border-collapse:collapse;
+}
 
+th, td{
+    border-bottom:1px solid #dadada;
+    padding:10px;
+    font-size:13px;
+}
 
+th{
+    text-align:left;
+    background:#eceaeb;
+    padding-top: 17px;
+}
 
+/* Match column */
+.match{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.star{
+    color:#0aa;
+    font-size:16px;
+}
+
+.status{
+    width:10px;
+    height:10px;
+    background:#6cc000;
+    border-radius:50%;
+    margin-left:auto;
+}
+
+/* Odds colors */
+.blue{
+    background:#a8cbe6;
+    text-align:center;
+    width:60px;
+}
+
+.pink{
+    background:#e8b4be;
+    text-align:center;
+    width:60px;
+}
+
+.gray{
+    background:#eee;
+    text-align:center;
+    width:60px;
+}
+
+.main-mid .live-bet .time{
+    color:red;
+    font-size:11px;
+    margin-left:10px;
+}
+.last-cont{
+  background-color: red;
+  margin-left: 15px;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  
+}
 
 
 .main-right {
@@ -257,5 +372,4 @@ footer .flast{
   text-align: center;
   color: grey;
   padding-top: 50px;
-
 }
