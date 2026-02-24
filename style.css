@@ -155,19 +155,19 @@ body nav .search a {
 
 }
 .main-mid .sport-buttons .sport-button1{
-  background: url(cricket-bg.png);
+  background: url(img/cricket-bg.png);
 }
 .main-mid .sport-buttons .sport-button2{
-  background: url(football-bg.png);
+  background: url(img/football-bg.png);
 }
 .main-mid .sport-buttons .sport-button3{
-  background: url(tennis-bg.png);
+  background: url(img/tennis-bg.png);
 }
 .main-mid .sport-buttons .sport-button4{
-  background: url(horse-bg.png);
+  background: url(img/horse-bg.png);
 }
 .main-mid .sport-buttons .sport-button5{
-  background: url(greyhound-bg.png);
+  background: url(img/greyhound-bg.png);
 }
 .main-mid .sport-buttons .sport-button1, .sport-button2, .sport-button3, .sport-button4, .sport-button5{
   border-radius: 3px;
@@ -373,5 +373,4 @@ footer .flast{
   color: grey;
   padding-top: 50px;
 }
-
 
